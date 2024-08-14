@@ -109,6 +109,9 @@ body {
     letter-spacing: 0%;
    
 }
+.nav-menu-icon{
+    display: none;
+}
 
 /* banner section css  */
 .banner-section{
@@ -173,7 +176,7 @@ body {
 }
 .banner-tutorials{
  
-    background-image: url("images/images2.png");
+    background-image: url("../images/images2.png");
     background-position: center;
     background-repeat: no-repeat;  
     position: relative;
@@ -642,3 +645,184 @@ color: rgba(255, 255, 255, 0.5);
     
 
 }
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+
+
+/* mobile device css   */
+
+@media (max-width: 767px) {
+
+
+    /* common css  */
+    .section {
+            max-width:  767px;
+            margin: auto;
+        }
+    
+        .section-title {
+            color: rgb(255, 255, 255);
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 900;
+            line-height: 120%;
+            letter-spacing: 0%;
+            text-align: center;
+            width: 100%;
+            margin: auto;
+    
+        }
+    
+        .section-des {
+            color: rgba(255, 255, 255, 0.5);
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.3px;
+            text-align: center;
+            width: 100%;
+            margin: auto;
+          
+        }
+
+        .nav-menu-icon {
+            display: block;
+            margin-right: 40px;
+        }
+    
+        .nav-items {
+            display: none;
+        }
+
+
+        /* banner section  */
+                .banner-section {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    position: relative;
+                    row-gap: 30px;
+                    grid-column-gap: 50px;
+        
+        
+                }
+
+
+                /* habit section  */
+                .habits-main-content{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    position: relative;
+                    row-gap: 30px;
+                    grid-column-gap: 50px;
+
+                }
+
+
+
+                /* run css  */
+
+         .run-section-wrapper {
+             display: grid;
+             grid-template-columns: 1fr;
+             grid-column-gap: 15px;
+         }
+         /* trainings-img css  */
+
+                 .trainings-imgs {
+                     display: grid;
+                     grid-template-columns:1fr;
+                     margin-top: 60px;
+                 }
+                                 .traingins-single-img-two {
+                                     grid-column: 1/2;
+                                 }
+                
+                                 .traingins-single-img-four {
+                                     grid-column: 1/2;
+                                 }
+                
+                
+                                 .traingins-single-img img {
+                                     width: 100%;
+                                     height: 201px;
+                                     position: relative;
+                                 }
+                
+                                 .traingins-single-img {
+                
+                                     position: relative;
+                                 }
+                
+                                 .traingins-single-img p {
+                                     position: absolute;
+                                     bottom: 40px;
+                                     left: 30px;
+                                 }
+   .calculator-wrapper {
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       background: rgb(34, 34, 34);
+       padding: 50px 0px;
+   }
+
+   .meet-gellary {
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       grid-gap: 20px;
+       border-radius: 18px;
+       background: rgba(255, 255, 255, 0.1);
+       padding: 30px;
+       margin-top: 60px;
+   }
+
+        .footer-section {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 50px;
+        }
+
+
+                .calculate-form {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-gap: 15px;
+                    margin-top: 40px;
+                }
+        
+                .form-control {
+                    padding: 10px;
+                    border-radius: 10px;
+                    font-size: 16px;
+                    background: rgba(255, 255, 255, 0.1);
+                    border: none;
+                    color: rgba(255, 255, 255, 0.6);
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    border-radius: 8px;
+        
+                }
+        
+                option.form-control {
+                    background-color: rgb(34, 34, 34);
+                }
+        
+                .factor {
+                    grid-column: 1/2;
+                }
+
+
+    }
+
+
