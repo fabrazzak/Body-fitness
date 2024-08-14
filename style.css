@@ -1,0 +1,295 @@
+
+/* important css  */
+/* important css  */
+/* important css  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter-fonts> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+*{margin: 0;padding: 0 ;}
+body {
+    background: rgb(0, 0, 0);
+    color: white;    
+}
+/* common css  */
+
+
+
+.section {
+    max-width: 1060px;
+    margin: auto;
+}
+
+.section-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;    
+    margin-bottom: 15px;  
+    width: 670px;
+    margin: auto;
+
+}
+.section-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 670px;
+    margin: auto;
+}
+/* common css  */
+
+/* main css  */
+.header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    margin: 3% 5% 3% 0%;
+    position: relative;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    max-width: 1060px;
+    margin: auto;
+}
+.nav-title{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;        
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    
+}
+.nav-items li {
+    list-style: none;
+    padding: 12px 30px 12px 30px;
+    text-align: center;
+}
+.highlight-btn{
+    border-radius: 46px;    
+    background: rgb(230, 83, 60) !important;  
+    color: white; 
+    border:none !important;
+
+}
+.nav-items li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+   
+}
+
+/* banner section css  */
+.banner-section{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    position: relative;
+    row-gap: 30px;
+    grid-column-gap: 50px;
+    
+
+}
+.banner-info{
+    max-width: 520px;
+    width: 100%;
+}
+
+.banner-title{
+     color: rgb(255, 255, 255);
+     font-family: Inter;
+     font-size: 78px;
+     font-weight: 900;
+     line-height: 120%;
+     letter-spacing: 0%;
+     text-align: left;
+     margin-top: 90px;
+} 
+.banner-title-span{
+     font-size: 78px;
+     font-weight: 300;
+     line-height: 120%;
+     font-style: italic; 
+}
+.banner-dsr{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-btns button {
+     border-radius: 42px;
+     color: rgb(255, 255, 255);
+     padding: 16px 40px;
+     margin-right: 15px;
+     background-color: black;
+     border: 2px solid white;
+
+}
+.banner-btns button  a {
+     font-family: Inter;
+     font-size: 18px;
+     font-weight: 600;
+     line-height: 22px;
+     letter-spacing: 0px; 
+     text-decoration: none;
+     color: white;
+}
+.banner-tutorials{
+ 
+    background-image: url("images/images2.png");
+    background-position: center;
+    background-repeat: no-repeat;  
+    position: relative;
+    height: 580px;
+  
+
+}
+
+
+.top-info{
+    position: absolute;
+    right: 0px;
+    top: 150px ; 
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px ;
+}
+.top-info h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.top-info p{
+color: rgba(255, 255, 255, 0.65);
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 1px;
+text-align: left;
+}
+.bottom-info{
+    position: absolute;
+    left: 0px;
+    bottom: 50px ;  
+    box-sizing: border-box;
+     border: 1px solid rgba(255, 255, 255, 0.1);
+     border-radius: 12px;
+     backdrop-filter: blur(20px);
+     background: rgba(255, 255, 255, 0.1);
+     padding: 25px 25px 25px 70px;
+}
+.bottom-info h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 10px;
+    position: relative;
+}
+.bottom-info  h3::before{
+    content: " ";
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background: rgb(230, 83, 60);
+    top: 20px;
+    left: -50px;
+    border-radius: 50%;
+
+}
+.bottom-info{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+
+/* habit section  */
+
+.habits-section{
+    margin-top: 60px;
+}
+
+.habits-main-content{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+
+}
+
+.habits-item img {
+    border-radius: 50%;    
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    text-align: center;
+}
+
+.habits-item h4 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.habits-item p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 15px;
+    
+}
