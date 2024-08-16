@@ -11,6 +11,8 @@
     font-style: normal;
 }
 
+
+
 .satisfy-regular {
     font-family: "Satisfy", cursive;
     font-weight: 400;
@@ -747,6 +749,9 @@ input[type="number"]::-webkit-inner-spin-button {
           
         }
 
+
+                
+
         .nav-menu-icon {
             display: block;
             margin-right: 40px;
@@ -758,6 +763,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
         .header{
             padding: 0px 20px;
+            margin: 0px;
         }
 
         /* banner section  */
@@ -770,6 +776,11 @@ input[type="number"]::-webkit-inner-spin-button {
                     grid-column-gap: 50px;       
         
                 }
+                .banner-info{
+                    margin: 0px;
+                   
+                   
+                }
                 .banner-title {
                     margin-top: 30px;
                     color: rgb(255, 255, 255);
@@ -780,6 +791,9 @@ input[type="number"]::-webkit-inner-spin-button {
                      letter-spacing: 0%;
                      text-align: left;
 
+                }
+                .banner-dsr{
+                  padding-right: 20px;
                 }
                 .banner-btns {
                     display: flex;                   
