@@ -770,11 +770,14 @@ input[type="number"]::-webkit-inner-spin-button {
 
 
                 /* run css  */
+                .run-section{
+                    margin: 0px 20px;
+                }
 
          .run-section-wrapper {
              display: grid;
-             grid-template-columns: 1fr;
-             grid-column-gap: 15px;
+             grid-template-columns: 1fr;        
+             grid-gap: 25px;
          }
 
                  .run-info .section-des {
@@ -784,20 +787,27 @@ input[type="number"]::-webkit-inner-spin-button {
                      max-width: 100%;
                  }
 
-                 
+
          /* trainings-img css  */
+         .trainings-section{
+            margin: 0px 20px;
+            margin-top: 40px;
+           
+         }
 
                  .trainings-imgs {
                      display: grid;
-                     grid-template-columns:1fr;
-                     margin-top: 60px;
+                     grid-template-columns:1fr 1fr;
+                     margin-top: 30px;
                  }
-                                 .traingins-single-img-two {
+                                 .traingins-single-img-one {
                                      grid-column: 1/2;
+                                 }.traingins-single-img-two {
+                                     grid-column: 2/3;
                                  }
                 
                                  .traingins-single-img-four {
-                                     grid-column: 1/2;
+                                     grid-column: 2/3;
                                  }
                 
                 
@@ -817,13 +827,39 @@ input[type="number"]::-webkit-inner-spin-button {
                                      bottom: 40px;
                                      left: 30px;
                                  }
+
+                                 /* bmi section  */
+                
+
+
+.bmi-section{
+    margin:30px 0px;
+}
+
+.calculator-section{
+    padding: 0px 30px;
+}
    .calculator-wrapper {
        display: grid;
        grid-template-columns: repeat(1, 1fr);
        background: rgb(34, 34, 34);
-       padding: 50px 0px;
+       padding:  30px 0px;
+   }
+   .bim h3{
+    margin-top: 30px;
+   }
+   .submit-btn{   
+    width: 50%;
+    text-align: center !important;
    }
 
+
+   /* meet section  */
+
+   .meet-section {
+    margin-top: 30px;
+ 
+   }
    .meet-gellary {
        display: grid;
        grid-template-columns: repeat(1, 1fr);
@@ -831,9 +867,16 @@ input[type="number"]::-webkit-inner-spin-button {
        border-radius: 18px;
        background: rgba(255, 255, 255, 0.1);
        padding: 30px;
-       margin-top: 60px;
+       margin: 0px 20px;
+       margin-top: 30px;
+       
    }
-
+  footer{
+    padding: 30px;
+  }
+  .footer-bottom{
+    margin-top: 30px;
+  }
         .footer-section {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
