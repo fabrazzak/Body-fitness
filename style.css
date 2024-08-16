@@ -800,6 +800,7 @@ input[type="number"]::-webkit-inner-spin-button {
                 /* habit section  */
                 .habits-section{
                     margin-top: 30px;
+                    padding: 0px 20px;
                 }
               
                 .habits-main-content{
@@ -816,6 +817,7 @@ input[type="number"]::-webkit-inner-spin-button {
                 /* run css  */
                 .run-section{
                     margin: 0px 20px;
+                    padding: 20px;
                 }
 
          .run-section-wrapper {
