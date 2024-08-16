@@ -179,7 +179,7 @@ body {
 }
 .banner-tutorials{
  
-    background-image: url("../images/images2.png");
+    background-image: url("./images/images2.png");
     background-position: center;
     background-repeat: no-repeat;  
     position: relative;
