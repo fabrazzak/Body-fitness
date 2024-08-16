@@ -37,11 +37,10 @@ body {
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
-    text-align: center;    
-    margin-bottom: 15px;  
+    text-align: center;  
     width: 670px;
+    padding-bottom: 15px;
     margin: auto;
-
 }
 .section-des{
     color: rgba(255, 255, 255, 0.5);
@@ -53,6 +52,7 @@ body {
     text-align: center;
     width: 670px;
     margin: auto;
+
 }
 /* common css  */
 
@@ -126,6 +126,9 @@ body {
 .banner-info{
     max-width: 520px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .banner-title{
@@ -273,6 +276,13 @@ text-align: left;
     grid-column-gap: 50px;
 
 }
+           .habits-item {
+               display: flex;
+               align-items: center;
+               flex-direction: column;
+               margin-bottom: 30px;
+    
+           }
 
 .habits-item img {
     border-radius: 50%;    
@@ -702,28 +712,60 @@ input[type="number"]::-webkit-inner-spin-button {
             display: none;
         }
 
+        .header{
+            padding: 0px 20px;
+        }
 
         /* banner section  */
+
                 .banner-section {
                     display: grid;
                     grid-template-columns: 1fr;
                     position: relative;
                     row-gap: 30px;
-                    grid-column-gap: 50px;
+                    grid-column-gap: 50px;       
         
-        
+                }
+                .banner-title {
+                    margin-top: 30px;
+                    color: rgb(255, 255, 255);
+                     font-family: Inter;
+                     font-size: 36px;
+                     font-weight: 900;
+                     line-height: 120%;
+                     letter-spacing: 0%;
+                     text-align: left;
+
+                }
+                .banner-btns {
+                    display: flex;                   
+                    gap: 15px;;
+                }  
+                 .banner-btns  button{
+                  padding: 10px 25px;
+                }
+                .top-info h3 ,.bottom-info h3{
+                    font-size: 30px;             
+                    font-size: 30.24px;
+                    font-weight: 900;
+                    line-height: 30.24px;
+                  
                 }
 
 
                 /* habit section  */
+                .habits-section{
+                    margin-top: 30px;
+                }
+              
                 .habits-main-content{
                     display: grid;
                     grid-template-columns: 1fr;
-                    position: relative;
-                    row-gap: 30px;
-                    grid-column-gap: 50px;
+                    position: relative; 
+                 
 
                 }
+
 
 
 
@@ -734,6 +776,15 @@ input[type="number"]::-webkit-inner-spin-button {
              grid-template-columns: 1fr;
              grid-column-gap: 15px;
          }
+
+                 .run-info .section-des {
+                     text-align: left;
+                      margin-top: 0px; 
+                     margin-bottom: 15px; 
+                     max-width: 100%;
+                 }
+
+                 
          /* trainings-img css  */
 
                  .trainings-imgs {
